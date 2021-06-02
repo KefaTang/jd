@@ -6,7 +6,7 @@ name: 京东汽车🚗
 on:
     workflow_dispatch:
     schedule:
-        - cron: "16 22 * * *"
+        - cron: "16 4 * * *"
     watch:
         types: [started]
     repository_dispatch:
