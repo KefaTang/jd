@@ -3,7 +3,7 @@ name: 京东每日签到
 on:
     workflow_dispatch:
     schedule:
-        - cron: "15 16 * * *"
+        - cron: "51 15 * * *"
     watch:
         types: [started]
     repository_dispatch:
