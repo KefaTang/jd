@@ -6,7 +6,7 @@ name: 答题赢京豆
 on:
     workflow_dispatch:
     schedule:
-        - cron: "0 17 * * *"
+        - cron: "50 17 * * *"
     watch:
         types: [started]
     repository_dispatch:
