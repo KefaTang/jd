@@ -6,7 +6,7 @@ name: 京东金融天天提额
 on:
     workflow_dispatch:
     schedule:
-        - cron: "22 16 * * *"
+        - cron: "22 0-23 * * *"
     watch:
         types: [started]
     repository_dispatch:
