@@ -6,7 +6,7 @@ name: 京东环球挑战赛🌎
 on:
     workflow_dispatch:
     schedule:
-        - cron: "0 1,4,12,13 8-31 3 *"
+        - cron: "0 16,4,12,* * *"
     watch:
         types: [started]
     repository_dispatch:
