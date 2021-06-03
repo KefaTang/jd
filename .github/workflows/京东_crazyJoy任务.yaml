@@ -1,4 +1,4 @@
-name: 京东疯狂JOY
+name:京东_crazyJoy任务
 
 on:
     workflow_dispatch:
