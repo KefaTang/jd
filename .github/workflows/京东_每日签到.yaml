@@ -1,4 +1,4 @@
-name: 京东每日签到
+name: 京东_每日签到
 
 on:
     workflow_dispatch:
